@@ -1,0 +1,85 @@
+/* CSS for Customer Reviews Section */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc; /* Grey background */
+  margin: 0;
+  padding: 0;
+}
+
+.review-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.review-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000; /* Black color for "CUSTOMER'S" */
+  margin-bottom: 30px;
+}
+
+.review-section h2 .purple {
+  color: #7a00cc; /* Purple color for "REVIEW" */
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between boxes */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(87, 41, 120, 0.3);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  width: 100%; /* Ensure boxes expand within the grid */
+  max-width: 350px; /* Increased width of the boxes */
+}
+
+.review:hover {
+  transform: scale(1.05);
+}
+
+.review img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+}
+
+.review h3 {
+  font-size: 18px;
+  color: #333333;
+  margin: 10px 0 5px;
+}
+
+.review .stars {
+  font-size: 16px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+.stars span {
+  color: #f9b234;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 992px) {
+  .review-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
