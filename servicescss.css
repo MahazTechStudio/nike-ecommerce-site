@@ -1,100 +1,98 @@
-.services{
-    background-image: url("image/loging_bg.png");
-    background-position: center bottom;
-    background-size: 1570px;
-    background-repeat: no-repeat;
+.services {
+  background-image: url("image/loging_bg.png");
+  background-position: center bottom;
+  background-size: 1570px;
+  background-repeat: no-repeat;
 }
-.container{
-display: flex;
+.container {
+  display: flex;
 }
-.container .cap{
-    position: relative;
-top: -50px;
+.container .cap {
+  position: relative;
+  top: -50px;
 }
-.imglinks{
-height: fit-content;
+.imglinks {
+  height: fit-content;
 }
 
-
-body{
+body {
   font-family: sans-serif;
 }
 
-.head{
-font-family: sans-serif;
-font-size: 60px;
-text-align: center;
+.head {
+  font-family: sans-serif;
+  font-size: 60px;
+  text-align: center;
 }
 
-.cen{
-margin: auto;
-max-width: 650px;
+.cen {
+  margin: auto;
+  max-width: 650px;
 }
-.cap{
-border-radius: 35%;
-padding: 10px;
-text-align: center;
-color: darkgrey;
-font-size: 15px;
+.cap {
+  border-radius: 35%;
+  padding: 10px;
+  text-align: center;
+  color: darkgrey;
+  font-size: 15px;
 }
-.cap h3{
-color: black;
-font-weight: bold;
-font-size: 26px;
+.cap h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
 }
-.inputbutton{
-width: 350px;
-color: white;
-font-family: sans-serif;
-background: linear-gradient(to right, #b917ea,#7686bb,#76bbac);
-font-size: 28px;
-}
-
-.in{
-width: 350px;
-height: 35px;
-border: 3px solid #6c14d0;
-border-radius: 2px;
-border-radius: 8px;
+.inputbutton {
+  width: 350px;
+  color: white;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #b917ea, #7686bb, #76bbac);
+  font-size: 28px;
 }
 
-.imglinks{
-position: relative;
-top: 120px;
-left: 140px;
-background-color: lightgrey;
-width: 50px;
-
-}
-.imglinks:hover{
-background-color: grey;
-}
-.container2{
-    display: flex;
-    justify-content: center;
-    margin-left: 150px;
+.in {
+  width: 350px;
+  height: 35px;
+  border: 3px solid #6c14d0;
+  border-radius: 2px;
+  border-radius: 8px;
 }
 
-.shoeimg{
-    position: relative;
-    left: -305px;
+.imglinks {
+  position: relative;
+  top: 120px;
+  left: 140px;
+  background-color: lightgrey;
+  width: 50px;
 }
-.forget{
-    text-align: right;
+.imglinks:hover {
+  background-color: grey;
 }
-.forget p{
-    display: inline;
-}
-.top{
-    position: relative;
-    top: -100px;
-}
-.grad{
-color: #b917ea
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
 }
 
-.imglinkcon{
-    display: flex;
-    margin-top: -200px;
-    margin-left: 535px;
+.shoeimg {
+  position: relative;
+  left: -305px;
+}
+.forget {
+  text-align: right;
+}
+.forget p {
+  display: inline;
+}
+.top {
+  position: relative;
+  top: -100px;
+}
+.grad {
+  color: #b917ea;
+}
+
+.imglinkcon {
+  display: flex;
+  margin-top: -200px;
+  margin-left: 535px;
 }
