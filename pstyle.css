@@ -5,11 +5,7 @@
     align-items:center;
     justify-content: center; /**/
     display:flex;    /**/
-    background: linear-gradient(to right, #e20000,#000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 10px; 
+    color: #a630a6;
 }
 
 
