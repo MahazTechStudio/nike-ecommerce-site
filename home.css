@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+.header {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Customize this value as needed */
+}
+
+.header-nav {
+  display: flex; /*display everything in row*/
+  justify-content: space-between; /* This will place the "Shoes" on the left and the menu centered */
+  align-items: center;
+  padding: 0 20px;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* This allows the menu to expand and push the "Shoes" to the left */
+}
+
+.header-menu-item {
+  margin: 0 15px; /* Optional: Add space between the menu items */
+}
+
+.header-menu-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.txt {
+  color: #c72092;
+  font-size: 35px;
+  margin: 5px 0;
+}
+
+h1 span {
+  color: #6c14d0;
+  text-decoration: underline;
+}
+
+header nav ul li a:hover {
+  color: #c72092;
+}
+
+.collectionTxt {
+  color: rgb(160, 58, 160);
+  font-size: 90px;
+  top: 45px;
+  left: 5%;
+  position: relative;
+  padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.welcome {
+  width: 600px;
+  line-height: 21px; /*mean text height */
+  position: relative;
+  top: 75px;
+  left: 5%;
+}
+.trdImg {
+  width: 650px;
+  position: absolute;
+  right: 50px;
+  top: 75px;
+}
+.bkground {
+  background: url(image/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center; /* Centers the background image */
+  background-size: cover; /* Ensures the image covers the entire div */
+  width: 100%; /* Ensures the div takes up the full available width */
+  min-height: 80vh; /* Makes the div cover the full height of the viewport */
+}
+.button {
+  position: absolute;
+  left: 6%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #6c14d0;
+}
