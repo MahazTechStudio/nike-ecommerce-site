@@ -15,6 +15,7 @@
     margin: 5%;
     display: grid;   /**/
     grid-template-columns: 1fr 1fr 1fr 1fr;    /**/  
+    grid-gap: 25px 0;
 }
 
 .products .box .card{
@@ -36,8 +37,7 @@
     margin: 10px;
     transition: 0.3s;  /**/
     transform: translateX(-20px);
-    
-
+    opacity: 0;
 }
 
 .products .box .card .small_card i{
