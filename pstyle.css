@@ -15,7 +15,7 @@
     margin: 5%;
     display: grid;   /**/
     grid-template-columns: 1fr 1fr 1fr 1fr;    /**/  
-    grid-gap: 25px 0;
+    grid-gap: 25px 25px;
 }
 
 .products .box .card{
@@ -46,7 +46,6 @@
     border-radius: 5px;
     padding: 5px;
     margin: 5px ;
-    line-height: 15px;
     border: 2px solid gray;
     transition: 0.2s;
 }
