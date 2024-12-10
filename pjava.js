@@ -8,7 +8,7 @@
             'image/shoes5.png', 'image/shoes6.png', 'image/shoes.png', 'image/shoes7.png'
         ];
 
-        for (var i = 0; i <= pictures.length; i++) 
+        for (var i = 0; i < pictures.length; i++) 
             {
                 
             var outputContainer = document.getElementById("output"+i);
