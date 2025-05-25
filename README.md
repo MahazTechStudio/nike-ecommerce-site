@@ -18,7 +18,7 @@ This front-end project offers users a realistic shopping experience with interac
 - JavaScript
 
 ## Getting Started
-1. Open `index.html` in a browser
+1. Open `home.html` in a browser
 2. Navigate through the site and test features like filtering and adding products to the cart
 
 ## License
